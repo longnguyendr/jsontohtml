@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function jsontostring() {
                 } 
                 // Set Checkbox type
                 else if (types=="checkbox") {
-                    for (z in jsonobj.Snacks) {
-                        if (values == jsonobj.Snacks[z]) {
+                    for (z in jsonobj[x]) {
+                        if (values == jsonobj[x][z]) {
                             checks=true;
                             content.checked = checks;
                         }
