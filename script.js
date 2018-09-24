@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function jsontostring() {
                     content.checked = checks;
                 } 
                 // Set Checkbox type
-                else if (types=="checkbox" ) {
+                else if (types=="checkbox") {
                     for (z in jsonobj.Snacks) {
                         if (values == jsonobj.Snacks[z]) {
                             checks=true;
@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function jsontostring() {
                     values = jsonobj[x];
                     content.value = jsonobj[x];
                 }
-                    
             }
         }
     }
