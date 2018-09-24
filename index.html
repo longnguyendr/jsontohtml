@@ -3,8 +3,12 @@
     <head>
         <script src="script.js"></script>
         <meta charset="utf-8">
+        <script src="userData.js"></script>
     </head>
     <body>
+
+
+
         <div class="container">
                 <form action="#" id="test" method="POST">
                     <div class="row">
@@ -14,14 +18,25 @@
                                 <label for="name">Name</label>
                                 <input class="form-control" type="text" name="name" id="name" value="">
                             </div>
-                            <!--checkbox-->
+                            <!--radio-checkbox-->
                             <div class="form-group">
-                                <label>Gender</label>
+                                <label>Gender: </label>
                                 <span>Mr</span>
-                                <input type="radio" style="display:inline" name="Gender" value="Mr" Checked>
+                                <input type="radio" style="display:inline" name="Gender" value="Mr">
                                 <span>Mrs</span>
                                 <input type="radio" style="display:inline" name="Gender" value="Mrs">
                             </div>
+                            <!--checkbox-->
+                            <div class="form-group">
+                                <p>Snacks:</p>
+                                <span>French fries</span>
+                                <input type="checkbox" style="display:inline" name="Snacks" value="French_fries">
+                                <span>Coke</span>
+                                <input type="checkbox" style="display:inline" name="Snacks" value="Coke">
+                                <span>Dip</span>
+                                <input type="checkbox" style="display:inline" name="Snacks" value="Dip">
+                            </div>
+                            <br>
                             <!--Option-->
                             <div class="form-group">
                                 <label for="name">Select your food</label>
